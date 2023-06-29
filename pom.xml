@@ -73,7 +73,12 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-      
+      <!-- https://mavenlibs.com/maven/plugin/org.apache.maven.plugins/maven-surefire-plugin -->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.1.2</version>
+</plugin>
 			
     </plugins>
   </build>
